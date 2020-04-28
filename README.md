@@ -10,6 +10,16 @@ On each run the scripts takes the next item and posts in on one or more social n
 
 The items then can be placed at the end of the queue or marked as "done". (This should be configurable.)
 
+The user should be able to add/edit/remove items from the queue.
+
+The user should be able to mark items to be "live" or "on-hold". The "on-hold" items are skipped or rescheduled
+when their turn comes. (This won't change thir status though, just so the order won't change.)
+
+The user should be able to reorder the items.
+
+The system can have a CLI interface, a GUI (e.g. using Tk), a self-hosting web interface. It could also have
+multiple interfaces.
+
 ## Social networks:
 
 in order of interest:
